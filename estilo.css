@@ -59,3 +59,33 @@ p {
 	text-align: justify;
     text-align-last: center;
 }
+
+div.figure {
+	display: inline;
+  }
+  img.scaled {
+	width: 200px;
+	height: 180px;
+	display: inline;
+	
+  }
+
+  botao{
+	background-color: rgb(88, 231, 21)
+  }
+
+.botaoHelp{
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 5px;
+    margin: 20px;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+}
