@@ -44,6 +44,10 @@ div.figure {
 	background-color: #7fe082;
 	overflow: hidden;
   }
+  .top {
+	position: relative;
+	overflow: hidden;
+  }
   
 /*NAVBAR TAMANHO*/
   .topnav a {
@@ -76,6 +80,7 @@ div.figure {
 	transform: translate(-50%, -50%);
   }
   
+  
 /*POSIÇÃO MENU*/
   .topnav-right {
 	float: right;
@@ -87,5 +92,12 @@ div.figure {
 	  float: none;
 	  display: block;
 	}
-  
+	.topnav-centered a {
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: none;
+	  }
   }
+
+	
